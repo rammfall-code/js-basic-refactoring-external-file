@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { join } from 'path';
 
-test('has title', async ({ page,  }) => {
+test('has title', async ({ page }) => {
   await page.goto(`file://${join(__dirname, '../src/index.html')}`);
   const button = await page.getByTestId('create');
   await button.click();
