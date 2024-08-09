@@ -1,6 +1,6 @@
 # template-vanilla
 
-## Text
+## Move all content of javascript to external file and connect it to html
 
 ## We have a problem with loading script and access to html element due loading. Please, fix the place of script in html file
 
